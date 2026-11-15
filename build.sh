@@ -9,7 +9,7 @@ echo "$ver"
 
 
 if [ "$1" = "-u" ]; then
-    dpkg-deb -Zxz -z9 -Sextreme --root-owner-group --build kebianos_defaults kebianos_defaults_"$ver"_amd64.deb
+    dpkg-deb -Zxz -z9 -Sextreme --root-owner-group --build kebianos-defaults kebianos-defaults_"$ver"_amd64.deb
     git add .
     git commit -m "$ver"
     git push origin main
