@@ -1,0 +1,5 @@
+# KebianOS: apagar discos mecanicos tras 10 min de inactividad.
+# Solo afecta a discos rotacionales; SSD y NVMe no se tocan.
+# Para desactivarlo: cambia -S 120 por -S 0, o borra este archivo.
+# Valores de -S: 1-240 = x5 segundos (120 = 10 min), 241 = 30 min.
+ACTION=="add|change", SUBSYSTEM=="block", KERNEL=="sd[a-z]", ENV{DEVTYPE}=="disk", ATTR{queue/rotational}=="1", RUN+="/usr/sbin/hdparm -S 120 /dev/%k"

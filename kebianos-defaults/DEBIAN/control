@@ -1,0 +1,12 @@
+Package: kebianos-defaults
+Version: 1.6
+Section: misc
+Priority: optional
+Architecture: all
+Depends: gdebi, hdparm
+Maintainer: DannyXD300 <danny.mg302@gmail.com>
+Description: Opciones predeterminadas para Kebian
+ Aplicaciones por defecto (gdebi para archivos .deb), ajustes de sesion
+ de KDE Plasma (sesion vacia, sin confirmar al salir), Cartera de KDE
+ desactivada y actualizaciones automaticas con Discover aplicadas
+ tras reiniciar.
