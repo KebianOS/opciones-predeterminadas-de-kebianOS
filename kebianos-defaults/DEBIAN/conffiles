@@ -1,7 +1,7 @@
-/etc/xdg/mimeapps.list
-/etc/xdg/ksmserverrc
-/etc/xdg/PlasmaDiscoverUpdates
-/etc/xdg/discoverrc
-/etc/xdg/powerdevilrc
-/etc/xdg/dolphinrc
+/etc/xdg/.config/mimeapps.list
+/etc/xdg/.config/ksmserverrc
+/etc/xdg/.config/PlasmaDiscoverUpdates
+/etc/xdg/.config/discoverrc
+/etc/xdg/.config/powerdevilrc
+/etc/xdg/.config/dolphinrc
 /etc/udev/rules.d/60-kebianos-hdd.rules
