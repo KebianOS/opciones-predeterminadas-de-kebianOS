@@ -42,28 +42,32 @@ fontWeight=400
 immutability=1
 plugin=org.kde.plasma.showdesktop
 
+[Containments][2][Applets][28]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][2][Applets][29]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
 [Containments][2][Applets][3]
 immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
-popupHeight=554
-popupWidth=750
+popupHeight=565
+popupWidth=886
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
-
-[Containments][2][Applets][4]
-immutability=1
-plugin=org.kde.plasma.pager
 
 [Containments][2][Applets][5]
 immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=applications:firefox.desktop,preferred://filemanager
+launchers=applications:firefox.desktop,preferred://filemanager,applications:org.kde.discover.desktop
 
 [Containments][2][Applets][6]
 immutability=1
@@ -78,7 +82,7 @@ PreloadWeight=85
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=3;4;5;6;7;21;22
+AppletOrder=5;29;3;28;6;7;21;22
 
 [Containments][27]
 activityId=d1875bfc-8c3b-45df-961f-bff392b15cd8
@@ -174,7 +178,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][24][Configuration]
-PreloadWeight=52
+PreloadWeight=57
 
 [Containments][8][Applets][25]
 immutability=1
