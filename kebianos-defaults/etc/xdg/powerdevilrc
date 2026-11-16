@@ -4,8 +4,5 @@ PowerProfile=performance
 [Battery][Performance]
 PowerProfile=balanced
 
-[BatteryManagement]
-BatteryLowLevel=25
-
 [LowBattery][Performance]
 PowerProfile=power-saver

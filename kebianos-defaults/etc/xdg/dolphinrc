@@ -1,3 +1,14 @@
 [General]
 RememberOpenedTabs=false
-HomeUrl=~
+Version=202
+ViewPropsTimestamp=2026,11,15,11,49,21.482
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[Notification Messages]
+warnAboutRisksBeforeActingAsAdmin=false
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,directorythumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,ffmpegthumbs,fontthumbnail,gsthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,mobithumbnail,opendocumentthumbnail,rawthumbnail,svgthumbnail,windowsexethumbnail,windowsimagethumbnail,f3d-plugin-assimp,f3d-plugin-exodus,f3d-plugin-native,f3d-plugin-occt,gdk-pixbuf-thumbnailer
