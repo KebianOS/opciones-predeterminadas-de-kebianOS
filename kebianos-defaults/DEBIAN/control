@@ -1,9 +1,9 @@
 Package: kebianos-defaults
-Version: 1.11
+Version: 1.12
 Section: misc
 Priority: optional
 Architecture: all
-Depends: gdebi, hdparm
+Depends: gdebi, hdparm, plymouth-kebianos
 Maintainer: DannyXD300 <danny.mg302@gmail.com>
 Description: Opciones predeterminadas para Kebian
  Aplicaciones por defecto (gdebi para archivos .deb), ajustes de sesion
